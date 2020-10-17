@@ -1,14 +1,14 @@
 .intro-background {
   display: flex;
+  flex: 1;
   flex-direction: row;
-  
 }
 
 .intro-item {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  flex-direction: column;
   padding: 20px;
+  text-align: left;
 }
 
 .intro-item h1,
@@ -25,4 +25,36 @@ li {
 .intro-picture {
   width: 100%;
   height: 100%;
+}
+
+.skill-background {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.skill-header {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+.skill-items {
+
+  text-indent: 1cm;
+  font-size: medium;
+  font-weight: lighter;
+  color: black;
+
+}
+.skill-header:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.skill-items:hover{
+  color: black;
 }

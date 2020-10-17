@@ -1,0 +1,26 @@
+
+.edu-background {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+  }
+
+.edu-header {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+  
+  }
+  
+  .edu-items {
+  
+    text-indent: 1cm;
+    font-size: medium;
+    font-weight: lighter;
+    color: black;
+  
+  }

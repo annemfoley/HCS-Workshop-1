@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import {Link} from 'react-router-dom';
-import CutePic from "../../assets/anne_pic.png";
 
 export default function Navbar() {
   return (
@@ -25,7 +24,7 @@ export default function Navbar() {
             to = {{pathname: "https://www.instagram.com/anne_mfoley/"}}
             target = "_blank"
             >
-            Facebook            
+            Instagram            
           </Link>
 
           <Link
@@ -42,6 +41,7 @@ export default function Navbar() {
       <Link className = "info-link" to = {{pathname: "/about"}} > About </Link>
       <Link className = "info-link" to = {{pathname: "/experience"}} > Experience </Link>
       <Link className = "info-link" to = {{pathname: "/projects"}} > Projects </Link>
+      <Link className = "info-link" to = {{pathname: "/education"}} > Education </Link>
 
       </div>
     </>
